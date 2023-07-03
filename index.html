@@ -28,8 +28,17 @@
             action="https://formsubmit.co/codewithd034@gmail.com"
             method="POST"
           >
+            <!-- honeypot -->
+            <input type="text" name="_honey" style="display: none" />
             <!-- disbale captcha -->
             <input type="hidden" name="_captcha" value="false" />
+            <!-- Success msg link -->
+            <input
+              type="hidden"
+              name="next"
+              value="https://darshan-jayanth.github.io/submit-form-demo/submit.html"
+            />
+
             <div class="form-floating mb-3">
               <input
                 type="text"
