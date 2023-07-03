@@ -33,8 +33,10 @@
                 type="text"
                 class="form-control"
                 id="Name"
+                name="Name"
                 placeholder="Firstname Lastname"
                 maxlength="50"
+                required
               />
               <label for="Name">Name</label>
             </div>
@@ -43,8 +45,10 @@
                 type="email"
                 class="form-control"
                 id="Email"
+                name="Email"
                 placeholder="name@example.com"
                 maxlength="50"
+                required
               />
               <label for="Email">Email address</label>
             </div>
@@ -53,8 +57,10 @@
                 type="tel"
                 class="form-control"
                 id="Number"
+                name="Number"
                 placeholder="00+ 000 0000 000"
                 maxlength="10"
+                required
               />
               <label for="Number">Mobile number</label>
             </div>
@@ -63,12 +69,16 @@
                 type="text"
                 class="form-control"
                 id="Message"
-                placeholder="text"
+                name="Message"
+                placeholder="Write me a message or your questions"
               />
               <label for="Message">Message</label>
             </div>
-            <button class="w-50 button button-submit" type="submit">
+            <button class="w-100 button button-submit mb-3" type="submit">
               Submit
+            </button>
+            <button class="w-100 button button-submit" type="reset">
+              Reset
             </button>
             <hr class="my-4 mx-2" />
             <small class="text-body-secondary"
